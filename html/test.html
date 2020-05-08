@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		.background{
+			width: 10000px;
+			height: 5000px;
+			background-color: beige;
+		}
+	</style>
+</head>
+<body>
+<div class="background">
+	<img src="../img/tea_water2.png" alt="">
+	
+	
+</div>
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js'>
+
+</script>
+<script>
+	
+	$('.background').ripples({
+		
+		resolution: 512,
+		dropRadius: 20, //px
+		perturbance: 0.04,
+		
+	});
+	
+	setInterval(function () {
+		var $el = $('.background');
+		var x = Math.random() * $el.outerWidth();
+		var y = Math.random() * $el.outerHeight();
+		var dropRadius = 20;
+		var strength = 0.08 + Math.random() * 0.08;
+		$el.ripples('drop', x, y, dropRadius, strength);
+	}, 400);
+	;
+</script>
+
+</body>
+</html>

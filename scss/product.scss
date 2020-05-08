@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.navstart {
+  width: 100%;
+  display: none;
+  z-index: 99;
+  float: left;
+}
+
+.banner_box {
+  width: 780px;
+  height: 1080px;
+  background-image: url("../img/72ppi/img1.png");
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+#about {
+  width: 1140px;
+  height: 2000px;
+  background-image: url("../img/72ppi/br-02.jpg");
+  float: right;
+}
+
+#commodity {
+  width: 1140px;
+  margin-top: 300px;
+}
+
+.about_padding {
+  padding: 100px 0px 0px 150px;
+}
+
+
+#about {
+  width: 1140px;
+  height: 2000px;
+  background-image: url("../img/72ppi/br-02.jpg");
+  float: right;
+
+  .about_padding {
+    padding: 100px 0px 0px 150px;
+  }
+
+  .about_img {
+    margin-top: 120px;
+  }
+
+  .product_list {
+    .proud1, .proud2, .proud3, .proud4 {
+      margin: 5px;
+      width: 30px;
+      text-align: center;
+      border: 1px solid black;
+    }
+  }
+}
+
+
+/*# sourceMappingURL=style.css.map */
