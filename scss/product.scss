@@ -17,21 +17,11 @@ body {
   position: fixed;
 }
 
-#about {
-  width: 1140px;
-  height: 2000px;
-  background-image: url("../img/72ppi/br-02.jpg");
-  float: right;
-}
-
 #commodity {
   width: 1140px;
   margin-top: 300px;
 }
 
-.about_padding {
-  padding: 100px 0px 0px 150px;
-}
 
 
 #about {
@@ -49,12 +39,29 @@ body {
   }
 
   .product_list {
-    .proud1, .proud2, .proud3, .proud4 {
+    .product_list_1, .product_list_2, .product_list_3, .product_list_4 {
       margin: 5px;
       width: 30px;
       text-align: center;
       border: 1px solid black;
     }
+  }
+
+  .products {
+    width: 800px;
+    height: 800px;
+    background-color: aquamarine;
+    margin-left: 220px;
+  }
+
+  .product_1, .product_2, .product_3, .product_4 {
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 100px;
+
+
   }
 }
 
