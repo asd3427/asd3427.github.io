@@ -8,10 +8,10 @@
     "product_name_1": "阿里山金萱",
     "product_name_2": "清香阿里山烏龍",
     "product_name_3": "清香杉林溪烏龍",
-    "product_price_0": "880",
-    "product_price_1": "980",
-    "product_price_2": "1380",
-    "product_price_3": "1980"
+    "product_price_0": "NT.880",
+    "product_price_1": "NT.980",
+    "product_price_2": "NT.1380",
+    "product_price_3": "NT.1980"
   },
   {
     "image_url_0": "..\/img\/tea_menu\/Roasted_LR_DongDing_oo.jpg",
@@ -22,10 +22,10 @@
     "product_name_1": "輕焙阿里山烏龍",
     "product_name_2": "輕焙杉林溪烏龍",
     "product_name_3": "深焙杉林溪烏龍",
-    "product_price_0": "980",
-    "product_price_1": "1380",
-    "product_price_2": "1980",
-    "product_price_3": "1980"
+    "product_price_0": "NT.980",
+    "product_price_1": "NT.1380",
+    "product_price_2": "NT.1980",
+    "product_price_3": "NT.1980"
   },
   {
     "image_url_0": "..\/img\/tea_menu\/Special_Jasmine.jpg",
@@ -36,10 +36,10 @@
     "product_name_1": "桂香包種",
     "product_name_2": "穀香包種",
     "product_name_3": "高山小葉種紅茶",
-    "product_price_0": "880",
-    "product_price_1": "680",
-    "product_price_2": "680",
-    "product_price_3": "980"
+    "product_price_0": "NT.880",
+    "product_price_1": "NT.80",
+    "product_price_2": "NT.680",
+    "product_price_3": "NT.980"
   },
   {
     "image_url_0": "..\/img\/tea_menu\/Aged_Taiwanese_oo.jpg",
@@ -50,9 +50,9 @@
     "product_name_1": "窖藏鐵觀音",
     "product_name_2": "窖藏老凍頂",
     "product_name_3": "",
-    "product_price_0": "1780",
-    "product_price_1": "1980",
-    "product_price_2": "2480",
+    "product_price_0": "NT.1780",
+    "product_price_1": "NT.1980",
+    "product_price_2": "NT.2480",
     "product_price_3": ""
   }
 ]

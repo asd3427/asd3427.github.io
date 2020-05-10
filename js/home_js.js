@@ -16,23 +16,14 @@ $.ajax({
                 let products = $(".products").children() //獲取所有圖片的div 產品
                 products[0].style.backgroundImage = "url('" + data[i].image_url_0 + " ') "
                 products[1].style.backgroundImage = "url('" + data[i].image_url_1 + " ') "
-                products[2].style.backgroundImage = "url('" + data[i].image_url_2+ " ') "
+                products[2].style.backgroundImage = "url('" + data[i].image_url_2 + " ') "
                 products[3].style.backgroundImage = "url('" + data[i].image_url_3 + " ') "
+                products[0].innerHTML = `<div id="fonts1">${data[i].product_name_0}<br>${data[i].product_price_0}</div>`
+                products[1].innerHTML = `<div id="fonts2">${data[i].product_name_1}<br>${data[i].product_price_1}</div>`
+                products[2].innerHTML = `<div id="fonts3">${data[i].product_name_2}<br>${data[i].product_price_2}</div>`
+                products[3].innerHTML = `<div id="fonts3">${data[i].product_name_3}<br>${data[i].product_price_3}</div>`
 
 
-                // for (let i = 0; i < products.length; i++) {
-                //     if (class_name == 'product_1') {
-                //         console.log(data[0].class0.image_url_0)
-                //         console.log("url('" + data[0].class0.image_url_0 + " ') no-repeat 0 center"
-                //         )
-                //
-                //         products[i].innerHTML = `<h1>${1234}</h1>`
-                //         console.log(123)
-                //     }
-                //    else {
-                //         alert(12)
-                //     }
-                // }
             });
         }
 
