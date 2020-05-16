@@ -152,9 +152,6 @@ body {
     width: 100%;
   }
 }
-#about #pd_list.row {
-  margin: 0 auto;
-}
 #about .about_padding {
   padding: 98px 0px 0px 151px;
 }
@@ -178,15 +175,7 @@ body {
   margin: 5px;
   width: 30px;
   text-align: center;
-}
-#about .product_list .product_list_1:active,
-#about .product_list .product_list_2:active,
-#about .product_list .product_list_3:active,
-#about .product_list .product_list_4:active {
-  margin: 10px;
-  width: 60px;
-  font-size: 50px;
-  text-align: center;
+  border: 1px solid black;
 }
 @media (max-width: 1380px) {
   #about .product_list {
@@ -214,6 +203,7 @@ body {
 }
 .title_box h2 {
   font-weight: normal;
+  font-family: "cwTeXFangSong";
   color: #000;
   font-size: 24px;
   position: absolute;
@@ -259,9 +249,8 @@ body {
   .title_box h2::after {
     top: 43px;
     left: 120px;
-    width: 75%;
+    width: 579px;
     height: 1px;
-    width: calc(100% - 102px);
   }
 }
 .title_box h2 strong {
@@ -282,8 +271,14 @@ body {
     display: block;
     position: relative;
     top: 10px;
-    right: 0px;
+    right: -30px;
     transform: translateY(0%);
+  }
+}
+
+@media (max-width: 411px) {
+  h2 .mobile-none {
+    display: none;
   }
 }
 
@@ -337,7 +332,6 @@ body {
 @media (max-width: 992px) {
   .product_top {
     padding-left: 100px;
-    padding-left: 0px;
   }
 }
 @media (max-width: 576px) {
@@ -367,7 +361,7 @@ body {
   height: 414px;
   background-size: cover;
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 1150px) {
   .detail_product {
     height: 340px;
   }
@@ -379,7 +373,7 @@ body {
 }
 @media (max-width: 767.98px) {
   .detail_product {
-    height: 540px;
+    height: 440px;
   }
 }
 @media (max-width: 576px) {
@@ -474,11 +468,6 @@ body {
     height: 38vh;
   }
 }
-@media (max-width: 992px) {
-  .detail_pd_img {
-    width: 100%;
-  }
-}
 @media (max-width: 768px) {
   .detail_pd_img {
     height: 29vh;
@@ -566,4 +555,4 @@ body {
 
 /*# sourceMappingURL=style.css.map */
 
-/*# sourceMappingURL=product.css.map */
+/*# sourceMappingURL=tea_stores2.css.map */

@@ -1,0 +1,20 @@
+$nav_color:#5F7E45;
+$co_color:#9E9F71;
+$footer_color:#B1B995;
+$pink:rgb(246,200,202);
+$fontfamily: 'NSimSun';
+
+$line_color:#0071bc;
+
+
+$big_title: 36px;
+$small_title:24px;
+$text:20px;
+$vice_text:18px;
+
+@mixin fontset($fontsize ,$fontfamily) {
+    fontsize:$fontsize;
+    fontfamily:$fontfamily;
+
+}
+
